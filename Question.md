@@ -47,3 +47,23 @@ Pour ne pas mélanger les fonctionnalités, pour pouvoir travailler sur plusieur
 # Quelle commande permet de lister toutes les branches existantes ?
 
 git branch
+
+# Pourquoi est-il important de bien documenter une Pull Request ?
+
+Pour que les autres membres de l'équipe comprennent ce que fait la Pull Request
+
+# Dans quel cas est-il préférable d'utiliser GitHub Flow plutôt que Git Flow ?
+
+Pour les projets plus simple, avec moins de branches, moins de fonctionnalités, pour les projets plus simple et plus petit.
+
+# Expliquez le rôle des branches hotfix dans Git Flow.
+
+Les branches hotfix permettent de corriger des bugs en production, sans avoir a attendre la prochaine release, les hotfix sont des branches qui sont créé a partir de la branche master et qui sont mergé dans la branche master et dans la branche develop.
+
+# Quelle est la différence entre git clone et git pull ? 
+
+git clone permet de recuperer le code d'un repository distant et de le mettre dans un dossier local, git pull permet de recuperer les modifications du repository distant et de les mettre dans le repository local.
+
+# Quelles sont les étapes à suivre après avoir résolu un conflit ?
+
+Après avoir résolu un conflit, il faut ajouter les fichiers qui ont été résolu avec git add, puis faire un git commit pour valider les modifications.
