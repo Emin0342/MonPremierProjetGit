@@ -39,3 +39,7 @@ git remote add origin permet d'ajouter un remote a notre repository git, un remo
 # Que signifie l'option -u dans la commande git push ?
 
 l'option -u permet de dire a git de lier la branche local avec la branche distante, pour que les prochains git push et git pull soit plus simple et rapide.
+
+# Pourquoi est-il recommandé de créer une branche pour chaque nouvelle fonctionnalité ?
+
+Pour ne pas mélanger les fonctionnalités, pour pouvoir travailler sur plusieurs fonctionnalités en même temps sans que les modifications se mélangent, pour pouvoir revenir en arrière facilement si une fonctionnalité ne marche pas.
