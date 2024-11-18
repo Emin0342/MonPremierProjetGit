@@ -43,3 +43,7 @@ l'option -u permet de dire a git de lier la branche local avec la branche distan
 # Pourquoi est-il recommandé de créer une branche pour chaque nouvelle fonctionnalité ?
 
 Pour ne pas mélanger les fonctionnalités, pour pouvoir travailler sur plusieurs fonctionnalités en même temps sans que les modifications se mélangent, pour pouvoir revenir en arrière facilement si une fonctionnalité ne marche pas.
+
+# Quelle commande permet de lister toutes les branches existantes ?
+
+git branch
